@@ -12,3 +12,5 @@ The container needs to be connected to the appropriate network in order to conne
 For compatibility and readability with legacy code, we've specified three params for workload file: recordcount, totalrecordcount, and customer_count which refer to the same number. There is also order_count which refers to the number of order documents that need to be inserted.
 The other important param is mongodb.url which looks something like mongodb.url=mongodb://localhost:27017/ycsb?w=1
 These params are necessary in order to make sure the code works.
+
+# @TODO Build docker image and push
