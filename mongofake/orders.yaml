@@ -3,7 +3,7 @@ name: AdvJSON
 type: object
 key: _id
 data:
-  count: 200
+  count: 1
 properties:
   _id:
     type: string

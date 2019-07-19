@@ -147,11 +147,11 @@ properties:
   order_list:
     type: array
     description: "..."
-    items:
-      data:
-        min: 1
-        max: 5
-        build: "return 'order:::'+Math.floor((Math.random() * 199) + 1);"
+    # items:
+    #   data:
+    #     min: 1
+    #     max: 5
+    #    build: "return 'order:::'+Math.floor((Math.random() * 99) + 1);"
 
 definitions:
   Device:
